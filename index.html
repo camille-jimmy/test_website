@@ -106,11 +106,13 @@
 
             function login(secret) {
                 var hash = sha1(secret)
-                var url = hash + "/index.html"
+                //var url = hash + "/index.html"
+				var url = "C:/Users/CamilleChardin/workspace/test_mise_en_ligne_site/5ed25af7b1ed23fb00122e13d7f74c4d8262acd8/index.html"
                 var alert = document.querySelectorAll('[data-id="alert"]')
 
                 var request = new XMLHttpRequest()
                 request.open('GET', url, true)
+				window.alert(url)
 
                 request.onload = function () {
                     if (request.status >= 200 && request.status < 400) {
@@ -129,6 +131,7 @@
                     password[0].value = ''
                 }
                 request.send()
+
             }
 
             button[0].addEventListener("click", function () {
