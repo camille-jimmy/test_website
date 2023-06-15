@@ -34,3 +34,7 @@ html:
 
 markdown: kramdown
 
+kramdown:
+  auto_ids: true
+  toc_levels: 1..6
+

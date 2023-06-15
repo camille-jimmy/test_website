@@ -1,5 +1,5 @@
 ---
-title: My Page Title
+title: Coucou 2
 ---
 
 # coucou2
