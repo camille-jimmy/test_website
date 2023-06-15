@@ -32,4 +32,5 @@ html:
   use_repository_button: true
 
 
-markdown: GFM
+markdown: kramdown
+
